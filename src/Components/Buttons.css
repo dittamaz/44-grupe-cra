@@ -1,0 +1,32 @@
+.btn {
+    padding: 0.8em 1em;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1em;
+    border-radius: 0.1em;
+    border: 0.1em solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 8px 1px #0008;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color-dark);
+    border-color: var(--secondary-color-dark);
+}
+
+.btn.btn-round {
+    border-radius: 1.3em;
+}
+
+.btn.btn-round.btn-icon {
+    width: 1.3em;
+    height: 1.3em;
+    margin-top: -0.05em;
+    line-height: 1;
+    font-size: 40px;
+    padding: 0;
+}
